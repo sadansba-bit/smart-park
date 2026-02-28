@@ -4,6 +4,8 @@ import 'screens/map_screen.dart';
 import 'screens/chatbot_screen.dart';
 import 'screens/admin_screen.dart';
 import 'screens/profile_screen.dart';
+import 'screens/friend_main.dart';
+import 'screens/map_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +24,7 @@ class _MyAppState extends State<MyApp> {
 
   final List<Widget> _pages = const [
     HomeScreen(),
-    MapScreen(),
+    MapPage(),
     ChatbotScreen(),
     AdminScreen(),
     ProfileScreen(),
